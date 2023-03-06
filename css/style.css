@@ -84,27 +84,9 @@ nav ul{
   width: 310px;
   margin: 0 auto
 }
-
-.box-350x310{
-  height: 350px;
-  width: 310px;
-  margin: 0 auto
-}
-
-.box-300x310{
-  height: 300px;
-  width: 310px;
-  margin: 0 auto
-}
 .box-500x310{
   height: 500px;
   width: 310px;
-  margin: 0 auto
-}
-
-.box-400x310{
-  height: 400px;
-  width:310px;
   margin: 0 auto
 }
 
@@ -120,14 +102,33 @@ nav ul{
   margin: 0 auto
 }
 
+.box-400x310{
+  height: 400px;
+  width:310px;
+  margin: 0 auto
+}
 
+.box-350x310{
+  height: 350px;
+  width: 310px;
+  margin: 0 auto
+}
 
-
-
-
-
-
+.box-300x310{
+  height: 300px;
+  width: 310px;
+  margin: 0 auto
+}
 /* MAIN FINE*/
+
+/* FOOTER */
+.box-220x310{
+  height: 220px;
+  width:310px;
+  margin: 0 auto
+}
+/* FOOTER */
+
 /* RESPONSIVE INIZIO */
 @media screen and (min-width: 810px) {
   .tablet{
@@ -145,8 +146,6 @@ nav ul{
 
 
 }
-
-
 
 @media screen and (min-width: 1240px) {
   .desktop{
