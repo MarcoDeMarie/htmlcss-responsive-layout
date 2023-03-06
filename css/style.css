@@ -1,0 +1,162 @@
+/* GENERAL */
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.debug{
+  background-color: rgba(172, 255, 47, 0.829);
+  border: 1px solid black;
+  height: 100%;
+}
+
+.container{
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* FLEX */
+.d-flex {
+  display: flex;
+}
+
+.align-center{
+  align-items: center;
+}
+
+.fd-col{
+  flex-direction: column;
+}
+
+.jc-center{
+  justify-content: center;
+}
+/* FLEX */
+
+.d-block{
+  display: block;
+}
+
+.desktop {
+  display: none;
+}
+
+.tablet{
+  display: none;
+}
+/* GENERAL */
+
+
+/* HEADER INIZIO */
+header{
+  height: 75px;
+}
+
+header .container {
+  max-width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 30px 0 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  width: 565px;
+}
+
+nav ul{
+  list-style: none;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* HEADER FINE */
+/* MAIN INIZIO*/
+.box-610x310{
+  height: 610px;
+  width: 310px;
+  margin: 0 auto
+}
+
+.box-350x310{
+  height: 350px;
+  width: 310px;
+  margin: 0 auto
+}
+
+.box-300x310{
+  height: 300px;
+  width: 310px;
+  margin: 0 auto
+}
+.box-500x310{
+  height: 500px;
+  width: 310px;
+  margin: 0 auto
+}
+
+.box-400x310{
+  height: 400px;
+  width:310px;
+  margin: 0 auto
+}
+
+.box-450x310{
+  height: 450px;
+  width: 310px;
+  margin: 0 auto
+}
+
+.box-425x310{
+  height: 450px;
+  width:310px;
+  margin: 0 auto
+}
+
+
+
+
+
+
+
+
+/* MAIN FINE*/
+/* RESPONSIVE INIZIO */
+@media screen and (min-width: 810px) {
+  .tablet{
+    display: block;
+  }
+
+  header .mobile{
+    display: block;
+  }
+
+  .mobile{
+    display: none;
+  }
+
+
+
+}
+
+
+
+@media screen and (min-width: 1240px) {
+  .desktop{
+    display: block;
+  }
+  .mobile{
+    display: none;
+  }
+
+
+  
+}
+/* RESPONSIVE FINE */
